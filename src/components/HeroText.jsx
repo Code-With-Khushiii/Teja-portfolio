@@ -2,7 +2,7 @@ import { FlipWords } from "./FlipWords";
 import { motion } from "motion/react";
 
 const HeroText = () => {
-  const words = ["Java", "Spring Boot", "React.js", "SQL", "JavaScript"];
+  const words = ["Python", "SQL", "Tableau", "Power BI", "ETL"];
   const variants = {
     hidden: { opacity: 0, x: -50 },
     visible: { opacity: 1, x: 0 },
@@ -28,8 +28,8 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Alekhya Mandava
-            <br /> Full Stack Engineer
+            Sai Krishna Grandhi
+            <br /> Data Analyst
           </motion.p>
           <motion.div
             variants={variants}
@@ -49,7 +49,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Developer
+            Analytics & BI
           </motion.p>
         </div>
       </div>
@@ -62,7 +62,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi,I'm Alekhya Mandava
+          Hi, I'm Sai Krishna Grandhi
         </motion.p>
         <div className="text-center">
           <motion.p
@@ -92,7 +92,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Web Application
+            Data Products
           </motion.p>
         </div>
       </div>

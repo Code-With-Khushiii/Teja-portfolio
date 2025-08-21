@@ -74,7 +74,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Phone</p>
                 <p className="text-white font-medium text-sm md:text-base">
-                  +1 510-925-6045
+                  +1 (227) 218-8477
                 </p>
               </div>
             </div>
@@ -86,7 +86,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Email</p>
                 <p className="text-white font-medium break-words text-sm md:text-base">
-                  alekhya.mandava17@gmail.com
+                  grandhisaikrishna3@gmail.com
                 </p>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Location</p>
                 <p className="text-white font-medium text-sm md:text-base">
-                  Union City, CA, USA
+                  Washington, DC, USA
                 </p>
               </div>
             </div>
@@ -113,12 +113,12 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">LinkedIn</p>
                 <a
-                  href="https://www.linkedin.com/in/alekhyamandava7/"
+                  href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold-light transition-colors duration-200 font-medium text-sm md:text-base"
                 >
-                  alekhya-mandava
+                  saikrishna-grandhi
                 </a>
               </div>
             </div>
@@ -130,7 +130,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Role</p>
                 <p className="text-white font-medium text-sm md:text-base">
-                  Full Stack Engineer
+                  Data Analyst
                 </p>
               </div>
             </div>
@@ -150,7 +150,7 @@ const Contact = () => {
         </div>
       </div>
 
-      {/* Contact Form */}
+      {/* Contact Form
       <div className="flex flex-col w-full max-w-md p-6 border border-gold/30 rounded-2xl bg-black/50">
         <div className="flex flex-col items-start w-full gap-5 mb-8">
           <h2 className="text-xl md:text-2xl font-bold text-gold">Let's Talk</h2>
@@ -219,7 +219,7 @@ const Contact = () => {
             {!isLoading ? "Send" : "Sending..."}
           </button>
         </form>
-      </div>
+      </div> */}
     </section>
   );
 };

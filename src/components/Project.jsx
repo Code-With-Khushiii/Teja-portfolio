@@ -2,11 +2,12 @@ import React, { useState } from "react";
 import ProjectDetails from "./ProjectDetails";
 
 const Project = ({
-  title,
-  href,
-  image,
-  tags,
-  setPreview,
+  title = "",
+  href = "#",
+  image = "",
+  tags = [],
+  setPreview = () => {},
+  discription: description = "",
 }) => {
   const [isHidden, setIsHidden] = useState(false);
   return (
@@ -18,13 +19,14 @@ const Project = ({
       >
         <div>
           <p className="text-2xl">{title}</p>
+          <p className="mb-3 font-normal text-gray">{description}</p>
           <div className="flex gap-5 mt-2 text-sand">
-            {tags.map((tag) => (
+            {Array.isArray(tags) && tags.map((tag) => (
               <span key={tag.id}>{tag.name}</span>
             ))}
           </div>
         </div>
-        <a
+        {/* <a
          href={href}
          target="_blank"
          rel="noopener noreferrer"
@@ -32,7 +34,7 @@ const Project = ({
        >
          Read More
          <img src="assets/arrow-right.svg" className="w-5" />
-       </a>
+       </a> */}
       </div>
       {/* <div className="bg-gradient-to-r from-transparent via-neutral-700 to-transparent h-[1px] w-full" />
       {isHidden && (
