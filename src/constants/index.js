@@ -31,7 +31,7 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "LinkedIn",
-    href: "",
+    href: "https://www.linkedin.com/in/sai-krishna-grandhi/",
     icon: "/assets/socials/linkedIn.svg",
   },
 ];

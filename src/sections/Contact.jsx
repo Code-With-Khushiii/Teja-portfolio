@@ -113,7 +113,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">LinkedIn</p>
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/sai-krishna-grandhi/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold-light transition-colors duration-200 font-medium text-sm md:text-base"

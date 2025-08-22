@@ -16,9 +16,6 @@ export function Frameworks() {
     "aws",
     "google",
     "sql",
-    "powerbi",
-    "snowflake",
-    "snowflake",
     "snowflake",
   ];
   return (
