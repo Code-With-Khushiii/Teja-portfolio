@@ -41,12 +41,12 @@ const About = () => {
           >
             <p className="flex items-end text-5xl text-gold">Skills</p>
             <Card
-              style={{ rotate: "0deg", top: "39%", left: "12%" }}
+              style={{ rotate: "0deg", top: "39%", left: "4%" }}
               text="Python"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "42%", left: "55%" }}
+              style={{ rotate: "0deg", top: "42%", left: "62%" }}
               text="SQL"
               containerRef={grid2Container}
             />
