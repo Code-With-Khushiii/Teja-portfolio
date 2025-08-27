@@ -41,42 +41,42 @@ const About = () => {
           >
             <p className="flex items-end text-5xl text-gold">Skills</p>
             <Card
-              style={{ rotate: "75deg", top: "30%", left: "20%" }}
+              style={{ rotate: "0deg", top: "30%", left: "20%" }}
               text="Python"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-30deg", top: "60%", left: "45%" }}
+              style={{ rotate: "0deg", top: "60%", left: "45%" }}
               text="SQL"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "90deg", bottom: "30%", left: "70%" }}
+              style={{ rotate: "0deg", bottom: "30%", left: "70%" }}
               text="Tableau"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "55%", left: "0%" }}
+              style={{ rotate: "0deg", top: "55%", left: "0%" }}
               text="Power BI"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "20deg", top: "10%", left: "38%" }}
+              style={{ rotate: "0deg", top: "10%", left: "38%" }}
               text="Airflow"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "30deg", top: "70%", left: "70%" }}
+              style={{ rotate: "0deg", top: "70%", left: "70%" }}
               image="assets/logos/looker-icon.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "70%", left: "25%" }}
+              style={{ rotate: "0deg", top: "70%", left: "25%" }}
               image="assets/logos/mysql.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "-45deg", top: "5%", left: "10%" }}
+              style={{ rotate: "0deg", top: "5%", left: "10%" }}
               image="assets/logos/numpy.svg"
               containerRef={grid2Container}
             />
