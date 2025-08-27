@@ -9,7 +9,7 @@ const About = () => {
   return (
     <section className="c-space section-spacing" id="about">
       <h2 className="text-heading">About Me</h2>
-      <div className="grid grid-cols-1 gap-4 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-6 md:auto-rows-[18rem] mt-12">
         {/* Grid 1 */}
         <div className="grid-default-color grid-1 relative flex items-center justify-center px-4 py-8 md:py-12">
           {/* Background Image */}
@@ -41,42 +41,42 @@ const About = () => {
           >
             <p className="flex items-end text-5xl text-gold">Skills</p>
             <Card
-              style={{ rotate: "0deg", top: "30%", left: "20%" }}
+              style={{ rotate: "0deg", top: "39%", left: "12%" }}
               text="Python"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "60%", left: "45%" }}
+              style={{ rotate: "0deg", top: "42%", left: "55%" }}
               text="SQL"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", bottom: "30%", left: "70%" }}
+              style={{ rotate: "0deg", top: "12%", left: "65%" }}
               text="Tableau"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "55%", left: "0%" }}
+              style={{ rotate: "0deg", top: "72%", left: "8%" }}
               text="Power BI"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "10%", left: "38%" }}
+              style={{ rotate: "0deg", top: "10%", left: "1%" }}
               text="Airflow"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "70%", left: "70%" }}
+              style={{ rotate: "0deg", top: "72%", left: "70%" }}
               image="assets/logos/looker-icon.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "70%", left: "25%" }}
+              style={{ rotate: "0deg", top: "72%", left: "40%" }}
               image="assets/logos/mysql.svg"
               containerRef={grid2Container}
             />
             <Card
-              style={{ rotate: "0deg", top: "5%", left: "10%" }}
+              style={{ rotate: "0deg", top: "12%", left: "35%" }}
               image="assets/logos/numpy.svg"
               containerRef={grid2Container}
             />
