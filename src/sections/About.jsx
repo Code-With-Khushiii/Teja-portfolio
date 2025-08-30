@@ -35,51 +35,50 @@ const About = () => {
 
         {/* Grid 2 */}
         <div className="grid-default-color grid-2">
-          <div
-            ref={grid2Container}
-            className="flex items-center justify-center w-full h-full"
-          >
-            <p className="flex items-end text-5xl text-gold">Skills</p>
-            <Card
-              style={{ rotate: "0deg", top: "39%", left: "4%" }}
-              text="Python"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "42%", left: "62%" }}
-              text="SQL"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "12%", left: "65%" }}
-              text="Tableau"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "72%", left: "8%" }}
-              text="Power BI"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "10%", left: "1%" }}
-              text="Airflow"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "72%", left: "70%" }}
-              image="assets/logos/looker-icon.svg"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "72%", left: "40%" }}
-              image="assets/logos/mysql.svg"
-              containerRef={grid2Container}
-            />
-            <Card
-              style={{ rotate: "0deg", top: "12%", left: "35%" }}
-              image="assets/logos/numpy.svg"
-              containerRef={grid2Container}
-            />
+          <div className="flex flex-col w-full p-4 sm:p-6">
+            <p className="text-2xl sm:text-3xl lg:text-4xl text-gold mb-2 sm:mb-4">Skills</p>
+            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-x-10 gap-y-4 justify-items-center">
+              <div className="w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                Python
+              </div>
+              <div className=" w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                SQL
+              </div>
+              <div className=" w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                Tableau
+              </div>
+              <div className=" w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                Power BI
+              </div>
+              <div className=" w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                Airflow
+              </div>
+              <div className=" w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                Snowflake
+              </div>
+              <div className="w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                BigQuery
+              </div>
+              <div className="w-24 sm:w-28 lg:w-32 h-10 sm:h-12 flex items-center justify-center 
+                      text-sm sm:text-base lg:text-lg text-center rounded-full ring ring-gold/50 
+                      font-extralight bg-black/80 border border-gold/30 text-gold tracking-wide">
+                NumPy
+              </div>
+            </div>
           </div>
         </div>
         {/* Grid 3 */}
