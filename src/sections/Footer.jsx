@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         ))}
       </div>
-      <p>© 2025 Sai Krishna Grandhi. All rights reserved.</p>
+      <p>© 2025 Venkata Mani Teja Sunkara. All rights reserved.</p>
     </section>
   );
 };

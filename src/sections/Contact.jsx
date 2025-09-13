@@ -47,7 +47,6 @@ const Contact = () => {
       id="contact"
       className="relative flex flex-col items-center px-4 py-12 md:py-20 c-space section-spacing"
     >
-      {/* Background Particles */}
       <Particles
         className="absolute inset-0 -z-50"
         quantity={100}
@@ -74,7 +73,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Phone</p>
                 <p className="text-white font-medium text-sm md:text-base">
-                  +1 (227) 218-8477
+                  +1-312-459-1817
                 </p>
               </div>
             </div>
@@ -86,7 +85,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Email</p>
                 <p className="text-white font-medium break-words text-sm md:text-base">
-                  grandhisaikrishna3@gmail.com
+                  tejasunkara.jobs@gmail.com
                 </p>
               </div>
             </div>
@@ -98,7 +97,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Location</p>
                 <p className="text-white font-medium text-sm md:text-base">
-                  Washington, DC, USA
+                  Austin, TX, USA
                 </p>
               </div>
             </div>
@@ -113,12 +112,12 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">LinkedIn</p>
                 <a
-                  href="https://www.linkedin.com/in/sai-krishna-grandhi/"
+                  href="https://www.linkedin.com/in/tejasunkara/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold hover:text-gold-light transition-colors duration-200 font-medium text-sm md:text-base"
                 >
-                  saikrishna-grandhi
+                 tejasunkara
                 </a>
               </div>
             </div>
@@ -130,7 +129,7 @@ const Contact = () => {
               <div>
                 <p className="text-sm text-gray">Role</p>
                 <p className="text-white font-medium text-sm md:text-base">
-                  Data Analyst
+                  Cloud & IT Support Engineer 
                 </p>
               </div>
             </div>
@@ -149,77 +148,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-
-      {/* Contact Form
-      <div className="flex flex-col w-full max-w-md p-6 border border-gold/30 rounded-2xl bg-black/50">
-        <div className="flex flex-col items-start w-full gap-5 mb-8">
-          <h2 className="text-xl md:text-2xl font-bold text-gold">Let's Talk</h2>
-          <p className="text-sm md:text-base text-gray">
-            Whether you're looking to build a new website, improve your existing
-            platform, or bring a unique project to life, I'm here to help.
-          </p>
-        </div>
-
-        <form className="w-full" onSubmit={handleSubmit}>
-          <div className="mb-4">
-            <label htmlFor="name" className="feild-label">
-              Full Name
-            </label>
-            <input
-              id="name"
-              name="name"
-              type="text"
-              className="field-input field-input-focus w-full"
-              placeholder="John Doe"
-              value={formData.name}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="mb-4">
-            <label htmlFor="email" className="feild-label">
-              Email
-            </label>
-            <input
-              id="email"
-              name="email"
-              type="email"
-              className="field-input field-input-focus w-full"
-              placeholder="johndoe@email.com"
-              value={formData.email}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <div className="mb-4">
-            <label htmlFor="message" className="feild-label">
-              Message
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows="4"
-              className="field-input field-input-focus w-full"
-              placeholder="Share your thoughts..."
-              value={formData.message}
-              onChange={handleChange}
-              required
-            />
-          </div>
-
-          <button
-            type="submit"
-            disabled={isLoading}
-            className={`w-full px-4 py-3 text-base md:text-lg text-center rounded-md cursor-pointer bg-radial from-lavender to-royal hover-animation ${
-              isLoading ? "opacity-60 cursor-not-allowed" : ""
-            }`}
-          >
-            {!isLoading ? "Send" : "Sending..."}
-          </button>
-        </form>
-      </div> */}
     </section>
   );
 };
