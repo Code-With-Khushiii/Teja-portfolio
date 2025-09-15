@@ -65,7 +65,7 @@ const Navbar = () => {
             href="/"
             className="text-xl font-bold transition-colors text-gold hover:text-gold-light"
           >
-            Venkata Mani Teja Sunkara
+           Teja Sunkara
           </a>
           <button
             onClick={() => setIsOpen(!isOpen)}

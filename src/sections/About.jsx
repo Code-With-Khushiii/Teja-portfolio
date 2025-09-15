@@ -20,7 +20,7 @@ const About = () => {
           <div className="absolute inset-0 bg-black/30"></div>
           <div className="relative z-10 max-w-3xl text-center md:text-left">
             <p className="headtext text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-white break-words">
-              Hi, I'm Venkata Mani Teja Sunkara
+              Hi, I'm Teja Sunkara
             </p>
             <p className="subtext mt-4 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-gray-100">
               Cloud & IT Systems Analyst with 4+ years’ experience in IT support, cloud operations, 
@@ -55,7 +55,7 @@ const About = () => {
         <div className="grid-black-color grid-3">
           <div className="z-10 w-[50%]">
             <p className="headtext">Time Zone</p>
-            <p className="subtext">I'm based in Austin, TX, and open to remote work worldwide</p>
+            <p className="subtext">  I'm based in Austin, TX — open to remote work worldwide and relocation opportunities.</p>
           </div>
           <figure className="absolute left-[30%] top-[10%]">
             <Globe />
@@ -77,7 +77,7 @@ const About = () => {
           <div className="z-10 w-[50%]">
             <p className="headtext">Tech Stack</p>
             <p className="subtext">
-              I specialize in a variety of tools and frameworks for Cloud, Data, and IT Systems.
+             I leverage a diverse tech stack spanning Cloud (AWS, Splunk), IT Support (ServiceNow, Endpoint Security), and Data Analytics (SQL, Python, Power BI, Tableau) to deliver secure, efficient, and insight-driven solutions.
             </p>
           </div>
           <div className="absolute inset-y-0 md:inset-y-9 w-full h-full start-[50%] md:scale-125">

@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            Venkata Mani Teja Sunkara
+            Teja Sunkara
             <br /> Data & BI Analyst 
           </motion.p>
           <motion.div
@@ -49,7 +49,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-           Data Products
+           Cloud & IT Support Engineer
           </motion.p>
         </div>
       </div>
@@ -62,7 +62,7 @@ const HeroText = () => {
           animate="visible"
           transition={{ delay: 1 }}
         >
-          Hi, I'm Venkata Mani Teja Sunkara
+          Hi, I'm Teja Sunkara
         </motion.p>
         <div className="text-center">
           <motion.p
@@ -92,7 +92,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Cloud & Data Systems
+           Cloud & IT Support Engineer
           </motion.p>
         </div>
       </div>
